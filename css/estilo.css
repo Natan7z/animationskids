@@ -17,9 +17,7 @@
     padding: 0px;
 }
 
-/* Mobile Devices (max-width: 480px) */
-
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 768px) {
     body {
         font-size: 14px;
     }
@@ -37,29 +35,6 @@
     }
     footer {
         padding: 0.5em;
-    }
-}
-
-/* Tablets (min-width: 481px) and (max-width: 768px) */
-
-@media only screen and (min-width: 481px) and (max-width: 768px) {
-    body {
-        font-size: 16px;
-    }
-    header {
-        padding: 1em;
-    }
-    nav ul {
-        flex-direction: row;
-    }
-    nav li {
-        margin-right: 20px;
-    }
-    main {
-        padding: 2em;
-    }
-    footer {
-        padding: 1em;
     }
 }
 
