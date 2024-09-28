@@ -17,6 +17,75 @@
     padding: 0px;
 }
 
+/* Mobile Devices (max-width: 480px) */
+
+@media only screen and (max-width: 480px) {
+    body {
+        font-size: 14px;
+    }
+    header {
+        padding: 0.5em;
+    }
+    nav ul {
+        flex-direction: column;
+    }
+    nav li {
+        margin-right: 0;
+    }
+    main {
+        padding: 1em;
+    }
+    footer {
+        padding: 0.5em;
+    }
+}
+
+/* Tablets (min-width: 481px) and (max-width: 768px) */
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+    header {
+        padding: 1em;
+    }
+    nav ul {
+        flex-direction: row;
+    }
+    nav li {
+        margin-right: 20px;
+    }
+    main {
+        padding: 2em;
+    }
+    footer {
+        padding: 1em;
+    }
+}
+
+/* Desktop Devices (min-width: 769px) */
+
+@media only screen and (min-width: 769px) {
+    body {
+        font-size: 18px;
+    }
+    header {
+        padding: 1.5em;
+    }
+    nav ul {
+        flex-direction: row;
+    }
+    nav li {
+        margin-right: 30px;
+    }
+    main {
+        padding: 3em;
+    }
+    footer {
+        padding: 1.5em;
+    }
+}
+
 /*ESTRELA*/
 .avaliacao {
   padding-bottom: 50px;
