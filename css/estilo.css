@@ -292,6 +292,62 @@ body {
 
 }
 
+@media only screen and (max-width: 2400px) {
+  .navbar .nav-items a {
+    margin-right: 10px;
+    font-size: 10px;
+    height: 10px;
+  }
+  .navbar .nav-items svg {
+    margin-right: 0px;
+  }
+  .wrapper a{
+    width: 50px;
+    margin-right: 5px;
+  }
+  img{
+    width: 170px;
+    height: 30px;
+  }
+  .card {
+    height: 90px;
+    width: 110px;
+  }
+  .banner{
+    height: 150px;
+    width: 100%;
+  }
+  .section-title{
+    font-size: 20px;
+  }
+  .slider_info{
+    font-size: 20px;
+  }
+
+  .glow-on-hover{
+    height: 15px;
+    width: 230px; 
+    font-size: 10px;
+  }
+  .banner-pai{
+    height: 52vw;
+  }
+  #contrast-toggle{
+    height: 15px;
+    width: 15px;
+    margin-right: 5px;
+  }
+  #increase{
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+  }
+  #decrease {
+    width: 15px;
+    height: 15px;
+  }
+}
+
 .card .card_image {
   width: inherit;
   height: inherit;
