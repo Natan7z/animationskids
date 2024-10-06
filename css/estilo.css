@@ -323,14 +323,13 @@ body {
   .slider_info{
     font-size: 20px;
   }
-
   .glow-on-hover{
     height: 15px;
     width: 230px; 
     font-size: 10px;
   }
   .banner-pai{
-    height: 52vw;
+    height: 48vw;
   }
   #contrast-toggle{
     height: 15px;
