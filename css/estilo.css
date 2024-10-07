@@ -285,14 +285,6 @@ body {
     width: 15px;
     height: 15px;
   }
-    .slider__content {
-    gap: 1rem;
-  }
-  .slider__info h2 {
-    line-height: 1;
-    font-weight: 200;
-    font-size: 1rem;
-  }
 }
 
 @media only screen and (max-width: 1920px) {
@@ -352,14 +344,6 @@ body {
   #decrease {
     width: 15px;
     height: 15px;
-  }
-    .slider__content {
-    gap: 1rem;
-  }
-  .slider__info h2 {
-    line-height: 1;
-    font-weight: 200;
-    font-size: 1rem;
   }
 }
 
